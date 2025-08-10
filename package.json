@@ -1,5 +1,5 @@
 {
-  "name": "Tally_webhook_supabase",
+  "name": "Tally-webhook-supabase",
   "version": "1.0.0",
   "main": "api/webhook.js",
   "type": "module",
