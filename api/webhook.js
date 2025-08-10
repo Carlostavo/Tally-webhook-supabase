@@ -1,10 +1,11 @@
+// api/webhook.js
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL1;
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY1;
-const supabase = createClient(supabaseUrl, supabaseKey);
+const SUPABASE_URL = process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.SUPABASE_KEY;
 
-
+// Conectar a Supabase
+const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
