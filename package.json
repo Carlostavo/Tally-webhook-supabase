@@ -1,17 +1,12 @@
 {
-  "name": "tally-webhook-supabase",
+  "name": "tally-supabase-webhook",
   "version": "1.0.0",
+  "private": true,
   "main": "api/webhook.js",
-  "type": "module",
   "scripts": {
-    "dev": "vercel dev",
-    "start": "node api/webhook.js"
+    "start": "vercel dev"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.54.0"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "@supabase/supabase-js": "^2.28.0"
+  }
 }
