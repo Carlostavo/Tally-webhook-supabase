@@ -8,7 +8,7 @@
     "start": "node api/webhook.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.39.8"
+    "@supabase/supabase-js": "^2.54.0"
   },
   "keywords": [],
   "author": "",
